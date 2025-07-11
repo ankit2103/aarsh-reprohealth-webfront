@@ -1,0 +1,670 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --lightBlue: #2ED1E2;
+  --blue: #edfefe;
+  --greyP: #788094;
+  --pink: #FE76A8;
+  --lightpink:#fe76a821;
+  --wispink: #FDF2F8;
+  --darkGrey: #475569;
+  --vista: #F4F0F1;
+  --lightgrey: #F1F5F9;
+  --Woodsmoke: #1A1A1A;
+  --Iron: #CCCCCC;
+  --White: #ffffff;
+  --black: #000000;
+  --athensGray: #F1F5F9;
+  --zircon: #F7F9FE;
+  --mysin: #FEB62F;
+  --stormGray: #636E88;
+  --doveGray: #27272A;
+  --brightgray:#3A3F510D; /* profile button color*/
+  --ebb: #E9E4E4;
+  --Lynch: #64748B;
+  --zumthor: #E2E8F0;
+  --fiord: #475569;
+  --islandSpice: #FFFBEB;
+  --orangePeel: #F59E0B;
+  --vistaWhite: #F4F0F1;
+  --cloudBurst: #1D2B4F;
+  --midnight: #011632;
+  --pictonblue: #25B4F8;
+  --lightblue:#d0f0f7;
+  --blackhaze: #F8FAFC;
+  /* explore web card bg color*/
+  --gravel: #414146;
+  --applegreen: #00A500;
+  --lightgreen:#d8edd9;
+  --red: #EF4444;
+  --lightgray:#9CA3AF;
+  --navyblue:#274760; /*counter number*/
+  --cyanblue:#0E7490;
+  --lightskyblue:#2ED1E226;
+  /* for package */
+  --silver:#BCBCBC1A;   /*Silver*/
+  --blueLink: rgba(0, 122, 255, 1);
+  --pgColor: rgba(87, 83, 78, 1);
+  --greyborder:#D1D5DB;
+  --packageList:"#343434";
+  --listText:#292524;
+  --canleReview:#E5E7EA;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../../public/assets/fonts/tw-cen-mt.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ModernEraFont";
+  src: url("../../public/assets/fonts/modern-era-medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family:"Montserrat";
+  src:url("../../public/assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans-Lato";
+  src: url("../../public/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px white inset !important;
+  box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: var(--greyP) !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/* to hide scrollbar in slots  */
+.scrollbar-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+
+
+.custom-select option {
+  font-size: 16px;
+  background-color: #fff !important;
+  color: var(--greyP) !important; 
+}
+
+.custom-select option:hover {
+  background-color: var(--lightBlue) !important; /* Hover won't work in all browsers for <option> */
+}
+.custom-gradient {
+  background-image: linear-gradient(43.57deg, rgba(46, 209, 226, 0.51) 42.48%, rgba(46, 209, 226, 0.61) 91.75%);
+}
+
+
+
+/* label custom */
+.customlabel{
+  margin-top: 7px!important;
+}
+.custom-checkbox:checked {
+  filter: invert(100%) brightness(100%);
+}
+/* for blink cursor pointer in anywhere except input, textarea start */
+* {
+  caret-color: transparent !important;
+}
+input:focus, textarea:focus {
+  caret-color: auto !important;
+}
+/* for blink cursor pointer in anywhere except input, textarea end */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  @layer components {
+    .fontsizesm {
+      @apply text-sm; 
+    }
+    .fontsizebase {
+      @apply text-base; 
+      @apply font-normal;
+    }
+    .fontsizelg {
+      @apply text-lg; 
+    }
+    .fontsizexl {
+      @apply text-xl; 
+    }
+    .fontsize2xl {
+      @apply text-2xl;
+    }
+    .fontsize3xl {
+      @apply text-3xl; 
+    }
+    .fontsize4xl {
+      @apply text-4xl;
+    }
+  }
+
+  body,h3,
+h4,
+h5,
+h6,
+p,
+div,
+ul,
+li {
+  /* font-family: "ModernEraFont", sans-serif; */
+  /* font-family: "CustomFont", sans-serif; */
+  font-family:"OpenSans-Lato";
+  font-size: 14px;
+  font-weight: 400;
+}
+h1,h2,button{
+  font-family: "Montserrat", sans-serif;
+}
+h1{
+  font-weight: 700;
+  font-size: 62px;
+}
+h2{
+  font-weight: 600;
+  font-size: 28px;
+}
+h3{
+  font-weight: 500;
+  font-size: 20px;
+}
+button{
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+.navbar-container{
+  max-width: 1900px;
+  margin: auto;
+  /* border:1px solid black; */
+}
+.header-container{
+  padding: 0px 40px ;
+}
+.main-container {
+  /* min-width: 1024px; */
+  max-width: 1900px;
+  margin: auto;
+  /* border:1px solid black; */
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  /* min-width: 1024px; */
+  max-width: 1400px;
+  width: 100%;
+  padding:0px 50px; 
+  /* border:1px solid gray; */
+  
+}
+label{
+  text-wrap: nowrap;
+  min-width: 200px;
+}
+
+.heroSectionStyle {
+  background-image: url('../../public/assets/images/banners/line-vector-new.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  width: 100%;
+  background-color: #F4F0F1;
+  margin-top: 5.2rem;
+  padding-top: 0rem;
+}
+
+.mainheading {
+  font-size: 3.75rem;
+  /* font-size:60px;*/
+  line-height: 3.875rem;
+  /*line-height: 30px;*/
+  font-weight: 700;
+}
+
+.heading {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
+.authPagesheading {
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: 600;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  /* 24px */
+  line-height: 2.1875rem;
+  /* 35px */
+  font-weight: 600;
+  /* No change */
+}
+
+.paragraph {
+  font-size: 1.0625rem;
+  /* 17px */
+  line-height: 1.5625rem;
+  /* 25px */
+  font-weight: 400;
+  /* No change, 'px' is not needed for font-weight */
+}
+
+/* health advice heading */
+.healthheading {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  font-weight: 600;
+}
+
+/* availablebgbanner bg image */
+.availablebgbanner {
+  background-image: url('../../public/assets/images/booking/available-bg-banner.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 280px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+   /* Added padding for spacing */
+}
+
+.available-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Aligns items in the center */
+  width: 100%;
+  color: #fff;
+}
+
+.available-booking-form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -140px; /* Adjusted to fit below banner */
+  width: 100%;
+  /* background: white; */
+  border-radius: 10px;
+  /* box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
+  padding:20px 20px;
+  z-index: 10; /* Ensures form stays on top */
+}
+
+/* .availablebgbanner{
+  background-image: url('../../public/assets/images/booking/available-bg-banner.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  color: #fff;
+  position: relative;
+
+}
+.available-content{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.available-booking-form{
+  position: absolute;
+  margin: 20px;
+  width: 100%;
+  border: #000000 2px solid;
+  padding: 0px 0px;
+  
+} */
+/* login signup bg image */
+.loginsignupbanner {
+  background-image: url('../../public/assets/images/login-signup/login-signup-bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.loginsignuptitle {
+  @apply text-4xl;
+}
+
+.curved-underLine {
+  width: 230px;
+  height: 65px;
+  border: solid 3px #2ED1E2;
+  border-color: #2ED1E2 transparent transparent transparent;
+  border-radius: 77% / 23px 50px 0 0;
+  position: absolute;
+  top: 68px;
+  left: -5px;
+}
+.counterbanner{
+  background-image: url('../../public/assets/images/about-us/counter-bg-image.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 20px;
+
+}
+/* navbar page :button Subscribe */
+.animated-border {
+  padding: 3px; /* space for border effect */
+}
+
+.animated-border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #FE76A8, #2ED1E2, #FE76A8);
+  background-size: 300% 300%;
+  animation: gradientMove 3s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+/* --------------------- Typography -------------------------  */
+
+
+
+@media(max-width: 767px) {
+  .header-container{
+    padding: 0px 10px;
+  }
+  .main-container{
+    margin: 0;
+  }
+  .container{
+    padding: 0px 0px;
+    /* border:1px solid red; */
+
+  }
+
+  .availablebgbanner {
+    background-image: none;
+    border-radius: 0px;
+    margin-top: 4rem;
+    position: unset;
+    
+  }
+  .available-content{
+    display: flex;
+    justify-content: center;
+  }
+  .available-booking-form{
+    position: unset;
+    width: 100%;
+  }
+  .authPagesheading {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width:670px) {
+  .header-container{
+    padding: 0px 10px;
+  }
+  .main-container{
+    margin: 0;
+    
+  }
+  .container{
+    padding: 0px 10px;
+    /* border:1px solid red; */
+
+  }
+  .fontsize3xl {
+    font-size: 20px;
+  }
+
+  .heroSectionStyle {
+    margin-top: 4.5rem;
+    padding-top: 2rem;
+    background-position: center;
+  }
+
+  .mainheading {
+    font-size: 2rem;
+    /* 40px */
+    line-height: 2.8rem;
+    font-weight: 700;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.875rem;
+    /* 30px */
+    font-weight: 600;
+  }
+
+  .subheading {
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.875rem;
+    /* 30px */
+    font-weight: 500;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+    font-weight: 400;
+    /* Removed 'px', as font-weight doesn't use px */
+  }
+
+  .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25rem;
+  }
+
+  /* health advice heading */
+  .healthheading {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 600;
+  }
+
+  .curved-underLine {
+    width: 105px;
+    height: 20px;
+    border: solid 2px #2ED1E2;
+    border-color: #2ED1E2 transparent transparent transparent;
+    border-radius: 88% / 10px 22px 0 0;
+    position: absolute;
+    top: 34px;
+    left: 12px;
+  }
+
+  .loginsignupbanner {
+    @apply flex;
+    @apply justify-center;
+    /* @apply items-center; */
+    @apply gap-0;
+    @apply px-4;
+    @apply py-4;
+    /* @apply h-full; */
+
+  }
+
+  .loginsignuptitle {
+    @apply text-2xl;
+  }
+
+  .availablebgbanner {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0rem;
+    flex-direction: column;
+    padding: 0;
+  }
+}
+
+@media(min-width:670px) and (max-width: 767px) {
+  .container{
+    padding: 0px 10px;
+  }
+  .fontsize3xl {
+    font-size: 20px;
+  }
+
+  .heroSectionStyle {
+    margin-top: 4.5rem;
+    padding-top: 2rem;
+    background-position: center;
+  }
+
+  .mainheading {
+    font-size: 2.5rem;
+    /* 40px */
+    line-height: 2.8rem;
+    font-weight: 700;
+  }
+
+  .heading {
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.875rem;
+    /* 30px */
+    font-weight: 600;
+  }
+
+  .subheading {
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.875rem;
+    /* 30px */
+    font-weight: 500;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+    font-weight: 400;
+    /* Removed 'px', as font-weight doesn't use px */
+  }
+
+  /* health advice heading */
+.healthheading{
+  font-size:1.2rem;
+  line-height:1.2rem;
+  font-weight: 600;
+}
+.available-booking-form {
+  bottom: -222px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 1024px){
+  .container{
+    /* min-width: 1024px; */
+    max-width: 1100px;
+    width: 100%;
+    padding:0px 50px; 
+    /* border:2px solid grey; */
+    
+  }
+  .mainheading{
+    font-size: 2.5rem; /* 40px */
+  line-height:1.8rem;
+  font-weight: 700;
+  }
+
+  .heading {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 600;
+  }
+
+  .subheading {
+    font-size: 1.25rem;
+    /* 20px */
+    line-height: 1.875rem;
+    /* 30px */
+    font-weight: 500;
+  }
+
+  .paragraph {
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+    font-weight: 400;
+    /* Removed 'px', as font-weight doesn't use px */
+  }
+    /* health advice heading */
+.healthheading{
+  font-size:2.2rem;
+  line-height:2rem;
+  font-weight: 600;
+}
+.available-booking-form {
+  bottom: -222px;
+}
+
+.authPagesheading {
+  font-size: 20px;
+  line-height: 35px;
+  font-weight: 600;
+}
+}

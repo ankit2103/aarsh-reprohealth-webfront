@@ -1,0 +1,1252 @@
+
+{
+    "message": "doctor get successfully",
+    "status": "fail",
+    "code": 200,
+    "data": [
+        {
+            "_id": "67c1608833abf80f4e9237d3",
+            "name": "Dr Pooja Mehta",
+            "gender": "Female",
+            "profilePic": "https://skool-search.s3.ap-south-1.amazonaws.com/aarsh/doctor1740726407994Vector_%281%29.png",
+            "specialization": "Gynecologist & Infertility Specialist",
+            "experience": 14,
+            "address": {
+                "locality": "Salt Lake City",
+                "city": "Kolkata",
+                "state": "West Bengal",
+                "pinCode": "700091",
+                "lat": "22.5726",
+                "lng": "88.3639"
+            },
+            "clinic": {
+                "clinicName": "Bloom Women's Clinic",
+                "clinicCity": "Kolkata",
+                "clinicLocality": "Salt Lake City"
+            },
+            "fees": 900,
+            "slots": [
+                {
+                    "date": "2025-03-10",
+                    "day": "Today",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-11",
+                    "day": "Tomorrow",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-12",
+                    "day": "Wednesday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-13",
+                    "day": "Thursday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-14",
+                    "day": "Friday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-15",
+                    "day": "Saturday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-16",
+                    "day": "Sunday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-17",
+                    "day": "Monday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-18",
+                    "day": "Tuesday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-19",
+                    "day": "Wednesday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-20",
+                    "day": "Thursday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-21",
+                    "day": "Friday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-22",
+                    "day": "Saturday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-23",
+                    "day": "Sunday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                },
+                {
+                    "date": "2025-03-24",
+                    "day": "Monday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "08:00 AM",
+                                    "endTime": "09:00 AM"
+                                },
+                                {
+                                    "startTime": "09:30 AM",
+                                    "endTime": "10:30 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "12:00 PM",
+                                    "endTime": "01:00 PM"
+                                },
+                                {
+                                    "startTime": "02:00 PM",
+                                    "endTime": "03:00 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "05:00 PM",
+                                    "endTime": "06:00 PM"
+                                },
+                                {
+                                    "startTime": "06:30 PM",
+                                    "endTime": "07:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 6
+                }
+            ],
+            "totalReviews": 0,
+            "ratingPercentage": 0,
+            "isAvailableToday": true
+        },
+        {
+            "_id": "67c2f3b001b99b9cb294cfa5",
+            "name": "Dr. Suyash Kushwaha",
+            "gender": "Male",
+            "profilePic": "https://skool-search.s3.ap-south-1.amazonaws.com/aarsh/doctor1740829616059Stomach.png",
+            "specialization": "General Physician & Diabetologist",
+            "experience": 5,
+            "address": {
+                "locality": "Nehru Nagar",
+                "city": "Indore",
+                "state": "Madhya Pradesh",
+                "pinCode": "452001",
+                "lat": "22.7527249",
+                "lng": "75.8928366"
+            },
+            "clinic": {
+                "clinicName": "Suyash Clinic",
+                "clinicCity": "Indore",
+                "clinicLocality": "Patnipura"
+            },
+            "fees": 400,
+            "slots": [
+                {
+                    "date": "2025-03-10",
+                    "day": "Today",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "7:00 PM",
+                                    "endTime": "7:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 4
+                },
+                {
+                    "date": "2025-03-11",
+                    "day": "Tomorrow",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "7:00 PM",
+                                    "endTime": "7:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 4
+                },
+                {
+                    "date": "2025-03-12",
+                    "day": "Wednesday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "7:00 PM",
+                                    "endTime": "7:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 4
+                },
+                {
+                    "date": "2025-03-17",
+                    "day": "Monday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "7:00 PM",
+                                    "endTime": "7:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 4
+                },
+                {
+                    "date": "2025-03-18",
+                    "day": "Tuesday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "7:00 PM",
+                                    "endTime": "7:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 4
+                },
+                {
+                    "date": "2025-03-19",
+                    "day": "Wednesday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "7:00 PM",
+                                    "endTime": "7:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 4
+                },
+                {
+                    "date": "2025-03-24",
+                    "day": "Monday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "evening",
+                            "slots": [
+                                {
+                                    "startTime": "7:00 PM",
+                                    "endTime": "7:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 4
+                }
+            ],
+            "totalReviews": 1,
+            "ratingPercentage": 80,
+            "isAvailableToday": true
+        },
+        {
+            "_id": "67c806bdcdd1d729d22c130a",
+            "name": "Dr. Sruti Deshpande",
+            "gender": "Female",
+            "profilePic": "https://skool-search.s3.ap-south-1.amazonaws.com/aarsh/doctor1741162173598Stomach.png",
+            "specialization": [
+                "Reproductive endocrinologist",
+                " Obstetrics and gynecology physician",
+                " Maternal-fetal medicine specialist"
+            ],
+            "experience": 5,
+            "address": {
+                "locality": "Kishan Kung Colony",
+                "city": "Harda",
+                "state": "Madhya Pradesh",
+                "pinCode": "461331",
+                "lat": "22.346795",
+                "lng": "77.08723"
+            },
+            "clinic": {
+                "clinicName": "Kakaji Hospital",
+                "clinicCity": "Harda",
+                "clinicLocality": "Pratap Takiz"
+            },
+            "fees": 250,
+            "slots": [
+                {
+                    "date": "2025-03-10",
+                    "day": "Today",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 3
+                },
+                {
+                    "date": "2025-03-13",
+                    "day": "Thursday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 3
+                },
+                {
+                    "date": "2025-03-14",
+                    "day": "Friday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 3
+                },
+                {
+                    "date": "2025-03-17",
+                    "day": "Monday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 3
+                },
+                {
+                    "date": "2025-03-20",
+                    "day": "Thursday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 3
+                },
+                {
+                    "date": "2025-03-21",
+                    "day": "Friday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 3
+                },
+                {
+                    "date": "2025-03-24",
+                    "day": "Monday",
+                    "slots": [
+                        {
+                            "timePeriod": "morning",
+                            "slots": [
+                                {
+                                    "startTime": "10:00 AM",
+                                    "endTime": "10:30 AM"
+                                },
+                                {
+                                    "startTime": "10:30 AM",
+                                    "endTime": "11:00 AM"
+                                }
+                            ]
+                        },
+                        {
+                            "timePeriod": "afternoon",
+                            "slots": [
+                                {
+                                    "startTime": "4:00 PM",
+                                    "endTime": "4:30 PM"
+                                }
+                            ]
+                        }
+                    ],
+                    "totalSlotsAvailable": 3
+                }
+            ],
+            "totalReviews": 0,
+            "ratingPercentage": 0,
+            "isAvailableToday": true
+        }
+    ]
+}

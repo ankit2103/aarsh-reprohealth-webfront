@@ -1,0 +1,236 @@
+[
+  {
+    "_id": "1",
+    "name": "Pathkind Pathology Lab",
+    "city": "Indore",
+    "price": "100",
+    "exp": "95%",
+    "availableAtHome": true,
+    "availableAtLab": true
+  },
+  {
+    "_id": "2",
+    "name": "RedCliff Laboratory",
+    "city": "Pune",
+    "price": "200",
+    "exp": "90%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "3",
+    "name": "Apollo Diagnostics",
+    "city": "Bhopal",
+    "price": "150",
+    "exp": "88%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "4",
+    "name": "SRL Diagnostics",
+    "city": "Delhi",
+    "price": "180",
+    "exp": "92%",
+    "availableAtHome": true,
+    "availableAtLab": true
+  },
+  {
+    "_id": "5",
+    "name": "Dr. Lal PathLabs",
+    "city": "Mumbai",
+    "price": "250",
+    "exp": "97%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "6",
+    "name": "Metropolis Healthcare",
+    "city": "Chennai",
+    "price": "220",
+    "exp": "94%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "7",
+    "name": "Thyrocare",
+    "city": "Hyderabad",
+    "price": "175",
+    "exp": "91%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "8",
+    "name": "Suburban Diagnostics",
+    "city": "Bangalore",
+    "price": "200",
+    "exp": "89%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "9",
+    "name": "Healthians",
+    "city": "Ahmedabad",
+    "price": "130",
+    "exp": "93%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "10",
+    "name": "Vijaya Diagnostics",
+    "city": "Kolkata",
+    "price": "190",
+    "exp": "96%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "11",
+    "name": "Max Lab",
+    "city": "Jaipur",
+    "price": "210",
+    "exp": "87%",
+    "availableAtHome": true,
+    "availableAtLab": true
+  },
+  {
+    "_id": "12",
+    "name": "Medall Diagnostics",
+    "city": "Lucknow",
+    "price": "160",
+    "exp": "89%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "13",
+    "name": "Lucid Medical Diagnostics",
+    "city": "Coimbatore",
+    "price": "140",
+    "exp": "90%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "14",
+    "name": "Quest Diagnostics",
+    "city": "Nagpur",
+    "price": "270",
+    "exp": "98%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "15",
+    "name": "Chandan Labs",
+    "city": "Visakhapatnam",
+    "price": "195",
+    "exp": "92%",
+    "availableAtHome": true,
+    "availableAtLab": true
+  },
+  {
+    "_id": "16",
+    "name": "Core Diagnostics",
+    "city": "Chandigarh",
+    "price": "175",
+    "exp": "91%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "17",
+    "name": "PathCare Labs",
+    "city": "Patna",
+    "price": "180",
+    "exp": "89%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "18",
+    "name": "Prime Diagnostics",
+    "city": "Surat",
+    "price": "205",
+    "exp": "94%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "19",
+    "name": "Neuberg Diagnostics",
+    "city": "Bhubaneswar",
+    "price": "220",
+    "exp": "97%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "20",
+    "name": "Aarthi Scans & Labs",
+    "city": "Ludhiana",
+    "price": "125",
+    "exp": "86%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "21",
+    "name": "Orchid Diagnostics",
+    "city": "Madurai",
+    "price": "150",
+    "exp": "88%",
+    "availableAtHome": true,
+    "availableAtLab": true
+  },
+  {
+    "_id": "22",
+    "name": "Unipath Specialty Lab",
+    "city": "Kanpur",
+    "price": "230",
+    "exp": "95%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "23",
+    "name": "MicroPath Labs",
+    "city": "Ranchi",
+    "price": "190",
+    "exp": "90%",
+    "availableAtHome": true,
+    "availableAtLab": false
+  },
+  {
+    "_id": "24",
+    "name": "Xpert Diagnostics",
+    "city": "Vadodara",
+    "price": "170",
+    "exp": "89%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  },
+  {
+    "_id": "25",
+    "name": "TechMed Health Centre",
+    "city": "Mysore",
+    "price": "200",
+    "exp": "93%",
+    "availableAtHome": true,
+    "availableAtLab": true
+  },
+  {
+    "_id": "26",
+    "name": "GeneTech Labs",
+    "city": "Nashik",
+    "price": "180",
+    "exp": "91%",
+    "availableAtHome": false,
+    "availableAtLab": true
+  }
+]

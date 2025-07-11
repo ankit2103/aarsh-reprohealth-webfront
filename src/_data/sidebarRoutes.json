@@ -1,0 +1,51 @@
+[
+    {
+      "title": "Dashboard",
+      "items": [
+        {
+          "name": "My Appointments",
+          "path": "/my-booked-appointments",
+          "icon": "FaRegFile"
+        },
+        {
+          "name": "Test Results",
+          "path": "/test-results",
+          "icon": "IoFlaskOutline"
+        },
+      
+        {
+          "name": "Medical Records",
+          "path": "/medical-records",
+          "icon": "FaFileMedical"
+        },
+        {
+          "name": "Online Consultations",
+          "path": "/online-consultations",
+          "icon": "FaRegFile"
+        }
+      ]
+    },
+    {
+      "title": "General",
+      "items": [
+        {
+          "name": "User Profile",
+          "path": "/user-profile",
+          "icon": "CgProfile"
+        },
+       
+        
+        {
+          "name": "Change Password",
+          "path": "/change-password",
+          "icon": "RiSettings3Line"
+        },
+        {
+          "name": "Logout",
+          "path": "/logout",
+          "icon": "IoMdLogOut"
+        }
+      ]
+    }
+  ]
+   
